@@ -1,0 +1,7 @@
+{
+  "name": "A Little Message",
+  "description": "An intimate, heartfelt letter experience with word-by-word reveal and a hand-drawn flower bouquet gift.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

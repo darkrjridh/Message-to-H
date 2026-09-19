@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .path-draw {
+    stroke-dasharray: 600;
+    stroke-dashoffset: 600;
+    animation: drawStroke 2s cubic-bezier(0.35, 0, 0.25, 1) forwards;
+  }
+
+  .stem-line {
+    stroke-dasharray: 200;
+    stroke-dashoffset: 200;
+    animation: drawStroke 1.2s cubic-bezier(0.35, 0, 0.25, 1) forwards;
+  }
+}
+
+@keyframes drawStroke {
+  0% {
+    stroke-dashoffset: 600;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
